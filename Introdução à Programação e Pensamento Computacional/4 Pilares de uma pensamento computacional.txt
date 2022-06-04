@@ -1,0 +1,15 @@
+
+- Decomposição
+Decomposição de um problema complexo em partes menores para que 
+sejam mais fáceis de resolver.
+
+- Reconhecimento de padrões
+Reconhecimento de padrões repetitivos para 
+resolver o sistema de forma mais eficiente.
+
+- Abstração
+A abstração do problema, para focar nas informações importantes, 
+deixando de lado aquelas características irrelevantes e desnecessárias.
+
+- Algoritmo.
+Desenvolver algoritmos para resolver o problema

@@ -1,0 +1,71 @@
+Algoritmo é simplesmente uma "receita" para executarmos uma tarefa ou resolver algum problema. E como toda receita, um algoritmo também deve ser finito. Se seguirmos uma receita de bolo corretamente, conseguiremos fazer o bolo
+
+EXEMPLO DE ALGORITMO
+
+Imagine o trabalho de um recepcionista de cinema, ele deve conferir os bilhetes e direcionar o cliente para a sala correta. Além disso, se o cliente estiver 30 minutos adiantado o recepcionista deve informar que a sala do filme ainda não está aberta. E quando o cliente estiver 30 minutos atrasado o recepcionista deve informar que a entrada não é mais permitida
+
+Obs: Essas regras não são 100% verdade, eu as defini neste post apenas para fins didáticos
+
+Vamos escrever um algoritmo para descrever a atividade do recepcionista.
+
+Algoritmo Recepcionista de Cinema
+
+Inicio
+
+1 - Solicitar ao cliente o bilhete do filme.
+
+2 - Conferir a data e o horário do filme no bilhete.
+
+Se data/hora atual > data/hora do filme + 30 minutos Então
+
+3 - Informar ao cliente que o tempo limite para entrada foi excedido.
+
+4 - Não permitir a entrada.
+
+Senão Se data/hora atual < data/hora do filme - 30 minutos Então
+
+5 - Informar ao cliente que a sala do filme ainda não foi liberada para entrada.
+
+6 - Não permitir a entrada.
+
+Senão
+
+7 - Permitir a entrada.
+
+8 - Indicar ao cliente onde fica a sala do filme.
+
+Fim-Se
+
+Fim
+
+ALGORITMOS NA COMPUTAÇÃO
+
+Todas as tarefas executadas pelo computador, são baseadas em Algoritmos. Logo, um algoritmo deve também ser bem definido, pois é uma máquina que o executará. Uma calculadora por exemplo, para executar a operação de multiplicação, executa um algoritmo que calcula somas até um determinado número de vezes. Abaixo, um exemplo do algoritmo de multiplicação. Para facilitar, consideremos que os fatores da multiplicação são positivos.
+
+Algoritmo Multiplição de números positivos
+
+Declaração de variáveis
+
+numero1, numero2, resultado, contador: Inteiro
+
+Inicio
+
+ler(numero1)
+
+ler(numero2)
+
+resultado <- 0
+
+contador <- 0
+
+Enquanto contador < numero2 Faça
+
+resultado <- resultado + numero1
+
+contador <- contador + 1
+
+Fim-Enquanto
+
+escrever(resultado)
+
+Fim
